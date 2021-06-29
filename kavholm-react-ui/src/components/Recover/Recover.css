@@ -1,0 +1,69 @@
+.Recover {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100vw;
+  height: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+.Recover .splash-image {
+  width: 100%;
+  max-width: 100vw;
+  height: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+.Recover .container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex: 1;
+}
+.Recover .recover-card {
+  width: 500px;
+  padding: 24px 36px;
+  /* height: 400px; */
+}
+.Recover .recover-card .form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Recover .recover-card h2 {
+  text-align: center;
+  font-size: 32px;
+  max-width: 350px;
+  margin: 0 auto 2px;
+}
+.Recover .recover-card button {
+  margin-top: 20px;
+  width: 190px;
+}
+.Recover .error {
+  color: var(--bright-red);
+  margin: 5px 0;
+}
+.Recover .row {
+  width: 100%;
+}
+.Recover .to-login {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px 0;
+  width: 100%;
+  gap: 5px;
+  color: var(--muted);
+}

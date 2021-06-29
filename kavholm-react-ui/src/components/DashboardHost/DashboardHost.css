@@ -1,0 +1,36 @@
+.DashboardHost {
+  width: 100%;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.DashboardHost .tabs {
+  width: 100%;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  padding: 0 var(--side-padding);
+}
+.DashboardHost .tabs h4 {
+  border-bottom: solid 4px transparent;
+  padding-bottom: 10px;
+}
+.DashboardHost .tabs h4.active {
+  border-bottom: solid 4px var(--color-primary);
+}
+.DashboardHost .tabs h4 a {
+  color: var(--font-dark);
+}
+.NewListingButton {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

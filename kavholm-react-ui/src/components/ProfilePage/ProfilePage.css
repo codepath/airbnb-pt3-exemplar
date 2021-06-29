@@ -1,0 +1,63 @@
+.Profile {
+  background: rgba(249, 249, 249, 1);
+  min-height: 100vh;
+  padding-top: var(--navbar-height);
+}
+.Profile .banner {
+  width: 100%;
+  max-width: 100vw;
+  height: 160px;
+  background: var(--color-primary);
+}
+.Profile .avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(-50px);
+}
+.DashboardHero .avatar h2.full-name {
+  font-weight: 600;
+  font-size: 36px;
+}
+.Profile .avatar img {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  background: white;
+  padding: 5px;
+}
+.Profile .content {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  margin: 0 auto;
+  gap: 20px;
+}
+.Profile .profile-details,
+.Profile .actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: solid 1px var(--border-color);
+  padding: 16px 28px;
+}
+.Profile .profile-details h4,
+.Profile .actions h4 {
+  color: var(--color-primary);
+  font-size: 20px;
+}
+.Profile .profile-details .info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 18px;
+}
+.Profile .profile-details .info .label {
+  width: 120px;
+  font-weight: 600;
+}
+.Profile .actions .buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

@@ -1,0 +1,17 @@
+.Logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.Logo .kavholm {
+  color: white;
+}
+.Logo .homes {
+  color: #ababb7;
+}
+.Logo .kavholm.dark {
+  color: var(--color-primary);
+}
+.Logo .homes {
+  color: #ababb7;
+}

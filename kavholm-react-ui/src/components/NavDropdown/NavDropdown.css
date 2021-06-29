@@ -1,0 +1,38 @@
+.NavDropdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.NavDropdown .nav-item {
+  position: relative;
+}
+.NavDropdown .avatar {
+  background: white;
+  border-radius: 50%;
+  padding: 5px;
+}
+.NavDropdown .dropdown-menu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border: solid 1px var(--border-color);
+  border-radius: 4px;
+  top: 110%;
+  padding: 8px 16px;
+  z-index: 50;
+}
+.NavDropdown .dropdown-menu.closed {
+  display: none;
+}
+.NavDropdown .dropdown-menu.open {
+  display: flex;
+  flex-direction: column;
+}
+.NavDropdown .dropdown-menu .dropdown-item {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 5px 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,17 @@
+.BookingSearchForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.BookingSearchForm select {
+  background: transparent;
+  height: 40px;
+  padding: 0 15px 0 40px;
+  font-size: 16px;
+  border: solid 1px #ababb7;
+  width: 100%;
+  border-radius: 4px;
+}
+.BookingSearchForm .react-datepicker-wrapper {
+  width: 100%;
+}

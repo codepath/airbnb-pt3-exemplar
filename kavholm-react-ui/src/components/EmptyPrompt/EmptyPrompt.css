@@ -1,0 +1,22 @@
+.EmptyPrompt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.EmptyPrompt .grey-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--grey);
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.EmptyPrompt .message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

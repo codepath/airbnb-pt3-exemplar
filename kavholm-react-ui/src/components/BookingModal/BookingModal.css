@@ -1,0 +1,92 @@
+.BookingModal {
+  background: white;
+  padding-top: 16px;
+}
+.BookingModal .close-button {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+.BookingModal img {
+  margin-bottom: 25px;
+  height: 44px;
+}
+.BookingModal .content {
+  width: 350px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.BookingModal h1 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #373737;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 16px;
+  width: 100%;
+}
+.BookingModal p {
+  color: #373737;
+  font-size: 17px;
+  line-height: 23px;
+  margin: 0;
+}
+.BookingModal .info {
+  margin-bottom: 40px;
+}
+.BookingModal button {
+  margin-bottom: 25px;
+}
+.BookingModal .footer {
+  font-size: 14px;
+  line-height: 19px;
+  opacity: 0.7;
+}
+
+.BookingModal .completed {
+  width: 100%;
+}
+
+.BookingModal .card-info {
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  height: 44px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 0px 1px rgb(224, 224, 224), 0px 2px 4px 0px rgba(0, 0, 0, 0.07),
+    0px 1px 1.5px 0px rgba(0, 0, 0, 0.05);
+}
+
+.BookingModal .tip-text {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: -0.15px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.BookingModal .booking-modal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.BookingModal select {
+  background: transparent;
+  height: 40px;
+  padding: 0 15px 0 40px;
+  font-size: 16px;
+  border: solid 1px #ababb7;
+  width: 100%;
+  border-radius: 4px;
+}
+.BookingModal .react-datepicker-wrapper {
+  width: 100%;
+}
+.BookingModal .booking-title {
+  margin: 15px 0;
+}

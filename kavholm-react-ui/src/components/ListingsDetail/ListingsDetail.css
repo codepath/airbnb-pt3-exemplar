@@ -1,0 +1,177 @@
+.ListingsDetail {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100vw;
+  height: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.ListingsDetail .content {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  height: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  padding-top: var(--navbar-height);
+  /* background-size: cover; */
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.ListingsDetail .content > .row {
+  align-items: flex-start;
+  gap: 50px;
+}
+.ListingsDetail .media {
+  flex: 1.3;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: flex-start;
+  margin-left: var(--side-padding);
+}
+.ListingsDetail .media .row {
+  gap: 20px;
+}
+.ListingsDetail .media .image-main {
+  border-radius: 4px;
+
+  /* max-height: 400px;
+  width: 100%; */
+}
+.ListingsDetail .media .image-small {
+  /* max-height: 200px;
+  max-width: 200px; */
+  border-radius: 4px;
+}
+
+.ListingsDetail .info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: var(--side-padding);
+}
+.ListingsDetail .image-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.ListingsDetail .widgets {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  width: 50%;
+}
+.ListingsDetail .widgets div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.ListingsDetail .widgets img {
+  padding-right: 5px;
+}
+
+.ListingsDetail .priceInfo {
+  display: flex;
+  font-size: 14px;
+  letter-spacing: -0.15px;
+  margin: 24px 0;
+}
+.ListingsDetail .priceInfo .price {
+  font-size: 20px;
+  font-weight: 500;
+  color: #202020;
+  padding-right: 4px;
+}
+.ListingsDetail .priceInfo img {
+  padding-left: 0px;
+}
+.ListingsDetail .lineItems {
+  list-style-type: none;
+  padding: 0;
+  font-size: 14px;
+  color: #676767;
+  margin: 12px 0 20px;
+}
+.ListingsDetail .lineItemsTotal {
+  color: #202020;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 16px 0 40px;
+}
+
+.ListingsDetail .lineItems li {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  display: flex;
+  justify-content: space-between;
+  height: 24px;
+}
+
+.ListingsDetail hr {
+  border: 0;
+  opacity: 0.8;
+  border-top: 1px solid #dee2e6;
+  margin-bottom: 0;
+}
+
+.ListingsDetail .host {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.ListingsDetail .host img {
+  margin-right: 8px;
+  align-self: center;
+  border-radius: 32px;
+  width: 32px;
+  object-fit: cover;
+  height: 32px;
+}
+
+.ListingsDetail .host .media-body {
+  font-size: 14px;
+  color: #676767;
+}
+
+.ListingsDetail .host .media-body p {
+  font-weight: normal;
+  text-decoration: none;
+  margin: 0;
+  line-height: 18px;
+  padding-top: 6px;
+}
+
+.ListingsDetail .content {
+  color: #676767;
+}
+
+.ListingsDetail .image-main {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  object-position: bottom;
+
+  max-height: 466px;
+}
+
+.ListingsDetail .image-small {
+  width: 100%;
+  height: 25vh;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.ListingsDetail .stars {
+  align-self: center;
+}
